@@ -1,4 +1,5 @@
 **QuizFlash: Knowledge Challenge 🚀**
+https://japhetgan.github.io/quiz-flash
 
 Embark on a thrilling journey of learning with QuizFlash! This educational quiz app is designed to help learners grasp course concepts by explaining them within a time limit. Engage in a race against the clock to test your understanding and challenge your knowledge.
 
