@@ -18,6 +18,3 @@ Embark on a thrilling journey of learning with QuizFlash! This educational quiz 
 
 **Ready to ignite your knowledge? Play QuizFlash now and make learning an exciting adventure! 🌟**
 
----
-
-Feel free to customize it according to specific features or highlights of your app. Best of luck with your deployment on GitHub Pages!
