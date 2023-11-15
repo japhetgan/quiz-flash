@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Quiz from "./Quiz";
+import Instructions from "./Instructions";
+import Congrats from "./Congrats";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const [begin, setBegin] = useState(true);
+  const [finished, setFinished] = useState(false);
+  const [timer, setTimer] = useState(60);
+
+  return begin ? (
+    <Instructions timer={timer} setTimer={setTimer} setBegin={setBegin} />
+  ) : finished ? (
+    <Congrats setFinished={setFinished} setBegin={setBegin} />
+  ) : (
+    <Quiz timer={timer} setBegin={setBegin} setFinished={setFinished} />
   );
 }
 
